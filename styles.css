@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+:root{
+    --primary-color:#3195cf;
+}
+
+body{
+    background-color: var(--primary-color);
+    font-family: 'Lato', sans-serif;
+}
+
+label{
+    display: block;
+    padding-bottom: 1rem;
+}
+placeholder{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+    padding: 0.5rem 2rem;
+    width: 30%;
+}
+h1{
+    background-color: #0f4361;
+    text-align: center;
+    color: white;
+    padding: 50px;
+    margin: -20px;
+    margin-bottom: 30px;
+}
+h2{
+    color: rgb(22, 21, 21);
+}
+main{
+    text-align: center;
+}
+
+#calculate-btn{
+    border-radius: 1rem;
+    width: 20%;
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#output-box{
+    margin-top: 1rem;
+    color: white;
+    font-size: xx-large;
+
+}
